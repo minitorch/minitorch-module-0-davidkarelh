@@ -14,6 +14,16 @@ from .strategies import med_ints, small_floats
 # as shown at https://minitorch.github.io/modules.html
 # and checks that its properties work.
 
+# """
+# [mod: A1]:
+#     p1
+#     [a: A2]:
+#         p2
+#     [b: A3]:
+#         [c: A4]:
+#             p3
+#     """
+
 
 class ModuleA1(minitorch.Module):
     def __init__(self) -> None:
